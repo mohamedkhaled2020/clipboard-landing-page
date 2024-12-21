@@ -1,0 +1,295 @@
+:root{
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+}
+@font-face {
+    font-family: 'Bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Bold.ttf);
+}
+@font-face {
+    font-family: 'BoldItalic';
+    src: url(Bai_Jamjuree/BaiJamjuree-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'ExtraLight';
+    src: url(Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'ExtraLightEtalic';
+    src: url(Bai_Jamjuree/BaiJamjuree-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: 'Italic';
+    src: url(Bai_Jamjuree/BaiJamjuree-Italic.ttf);
+}
+@font-face {
+    font-family: 'Light';
+    src: url(Bai_Jamjuree/BaiJamjuree-Light.ttf);
+}
+@font-face {
+    font-family: 'LightItalic';
+    src: url(Bai_Jamjuree/BaiJamjuree-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url(Bai_Jamjuree/BaiJamjuree-Medium.ttf);
+}
+@font-face {
+    font-family: 'mediumItalic';
+    src: url(Bai_Jamjuree/BaiJamjuree-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'Regular';
+    src: url(Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url(Bai_Jamjuree/BaiJamjuree-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'SemiBoldItalic';
+    src: url(Bai_Jamjuree/BaiJamjuree-SemiBoldItalic.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bold','BoldItalic','EstraLight,','EstraLightItalic','Italic','Light','LightItalic','Medium','MediumItalic','Regular','SemiBold','SemiBoldItalic';
+}
+
+body{
+    width: 100%;
+    min-height: 100dvh;
+    text-align: center;
+}
+body header{
+    background: url(images/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+body header .logo img{
+    margin: 40px;
+}
+body header .text :first-child{
+    color: var(--DarkGrayishBlue);
+}
+body header .text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin: 30PX 0PX;
+}
+body header .links a{
+    display: block;
+    margin: 25px 0px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+body header .links :first-child{
+    background-color: var(--StrongCyan);
+}
+body header .links :nth-child(2){
+    background-color: var(--LightBlue);
+}
+body .details{
+    padding: 40px;
+}
+body .details .details-text :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .details .details-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 50px;
+}
+body .details .details-device .device-img img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+body .details .details-sec .sec :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .details .details-sec .sec :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 35px;
+}
+body .clipboard{
+    padding: 50px;
+}
+body .clipboard :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 20px;
+}
+body .clipboard :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 45px;
+}
+body .clipboard img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+body .charge{
+    padding: 40px;
+}
+body .charge .charge-text :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .charge .charge-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 60px;
+}
+body .charge .charge-details .charge-sec .sec{
+    margin: 40px;
+}
+body .charge .charge-details .charge-sec .sec :nth-child(2){
+    color: var(--DarkGrayishBlue);
+    margin: 20px 0px 15px 0px;
+}
+body .charge .charge-details .charge-sec .sec :nth-child(3){
+    color: var(--GrayishBlue);
+}
+body .charge .charge-details .charge-img{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+body .charge .charge-details .charge-img img{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+body .download .download-text :first-child{
+color: var(--DarkGrayishBlue);
+margin-bottom: 15px;
+}
+body .download .download-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 40px;
+}
+body .download .download-links a{
+  color: white;
+    display: block;
+    text-decoration: none;
+    margin: 25px;
+    border-radius: 30px;
+}
+body .download .download-links  :first-child{
+    background-color: var(--StrongCyan);
+    padding: 20px;
+}
+body .download .download-links :nth-child(2){
+    background-color: var(--LightBlue);
+    padding: 20px;
+}
+body footer{
+    background-color: rgb(248, 246, 246);
+    padding: 40px;
+    margin: 60px 0px;
+}
+body footer .logo img{
+    width: 60px;
+}
+body footer .links a{
+    display: block;
+    text-decoration: none;
+    color: var(--DarkGrayishBlue);
+    margin: 20px 0px;
+}
+body footer .links{
+    margin: 30px 0px;
+}
+body footer .sochial img{
+    margin: 0px 10px;
+}
+
+@media (min-width: 1000px){
+ 
+    body header .text , body header .links{
+        width: 45%;
+        margin: 0 auto;
+    }
+    body header .text{
+        margin-bottom: 50px;
+    }
+    body header .links a{
+        display: inline;
+        margin: 0px 10px;
+        padding: 10px 25px;
+    }
+
+    body .details .details-text{
+        width: 40%;
+        margin: 0px auto;
+
+    }
+
+    body .details .details-device{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body .details .details-device .device-img{
+        width: 45%;
+    }
+    body .details .details-device .details-sec{
+        text-align: left;
+        width: 40%;
+        margin: 0px auto;
+        line-height: 40px;
+    }
+    body .clipboard{
+        width: 45%;
+        margin: 0px auto;
+    }
+    body .charge .charge-sec{
+        display: flex;
+        justify-content: space-between;
+    }
+    body .charge .charge-sec .sec{
+        width: 30%;
+    }
+    
+    body .charge .charge-details .charge-img img{
+        display: inline;
+        margin: 0px 55px;
+    }
+    body .download{
+        width: 40%;
+        margin: 0px auto;
+    }
+    body .download .download-links a{
+        display: inline;
+        margin: 0px 15px;
+        padding: 10px 25px;
+    }
+    body footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body footer .links{
+        width: 30%;
+        text-align: left;
+        line-height: 35px;
+    }
+    body footer .links a{
+        display: inline;
+        margin: 0PX 20PX;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
